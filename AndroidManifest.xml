@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="jp.dc.android.dcguts"
+	android:installLocation="preferExternal" android:versionCode="8" android:versionName="1.7">
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name">
+		<activity
+			android:label="@string/app_name"
+			android:name="DCGutsActivity"
+			android:configChanges="keyboard|orientation"
+			android:launchMode="singleInstance">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="DCGutsPrefActivity"
+			android:configChanges="keyboard|orientation"
+			android:launchMode="singleInstance"
+		/>
+		<activity
+			android:name="com.google.ads.AdActivity"
+			android:configChanges="keyboard|keyboardHidden|orientation"
+			android:launchMode="singleInstance"
+		/>
+	</application>
+	<uses-sdk android:minSdkVersion="8" />
+</manifest>

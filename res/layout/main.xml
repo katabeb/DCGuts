@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1">
+		<ToggleButton android:id="@+id/toggleButton1" android:text="ToggleButton" android:layout_width="wrap_content" android:layout_height="match_parent"></ToggleButton>
+		<Spinner android:layout_width="wrap_content" android:layout_weight="1" android:id="@+id/spinner1" android:layout_height="match_parent"></Spinner>
+	</LinearLayout>
+	<com.google.ads.AdView
+		android:id="@+id/adView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		ads:adUnitId="a14e50ac8a7afa1"
+		ads:adSize="BANNER"
+		ads:loadAdOnCreate="true"/>
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/linearLayout1">
+		<TextView
+			android:layout_width="wrap_content"
+			android:text=""
+			android:layout_height="wrap_content"
+			android:id="@+id/textview_point"/>
+		<TextView
+			android:layout_width="wrap_content"
+			android:text=""
+			android:layout_height="wrap_content"
+			android:id="@+id/textview_page_state"/>
+	</LinearLayout>
+	<EditText android:text="EditText" android:scrollHorizontally="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/editText1"></EditText>
+	<ScrollView android:id="@+id/ScrollView01" android:layout_width="wrap_content" android:layout_height="160px">
+		<HorizontalScrollView android:id="@+id/horizontalScrollView1" android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" android:id="@+id/textView1"></TextView>
+		</HorizontalScrollView>
+	</ScrollView>s
+	<WebView
+		android:id="@+id/webview"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+</LinearLayout>

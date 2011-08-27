@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/app_name">
+		<CheckBoxPreference
+			android:title="@string/friend_guts_enable_title"
+			android:summary="@string/friend_guts_enable_summary" android:key="@string/friend_guts_enable_key"/>
+		<EditTextPreference
+			android:title="@string/friend_guts_comment_title"
+			android:summary="@string/friend_guts_comment_summary"
+			android:dialogTitle="@string/friend_guts_comment_dialogtitle" android:key="@string/friend_guts_comment_key" android:dependency="@string/friend_guts_enable_key"/>
+		<CheckBoxPreference
+			android:title="@string/friend_guts_del_title"
+			android:summary="@string/friend_guts_del_summary" android:key="@string/friend_guts_del_key" android:dependency="@string/friend_guts_enable_key"/>
+		<CheckBoxPreference
+			android:title="@string/id_guts_enable_title"
+			android:summary="@string/id_guts_enable_summary" android:key="@string/id_guts_enable_key"/>
+		<EditTextPreference
+			android:title="@string/id_guts_comment_title"
+			android:summary="@string/id_guts_comment_summary"
+			android:dialogTitle="@string/id_guts_comment_dialogtitle" android:key="@string/id_guts_comment_key" android:dependency="@string/id_guts_enable_key"/>
+		<CheckBoxPreference
+			android:title="@string/id_guts_del_title"
+			android:summary="@string/id_guts_del_summary" android:key="@string/id_guts_del_key" android:dependency="@string/id_guts_enable_key"/>
+		<CheckBoxPreference
+			android:title="@string/debug_mode_title"
+			android:summary="@string/debug_mode_summary" android:key="@string/debug_mode_key"/>
+<!--
+		<ListPreference
+			android:key="list_key"
+			android:title="@string/list_title"
+			android:summary="@string/list_summary"
+			android:dialogTitle="@string/list_dialogtitle"
+			android:entries="@array/list_entries"
+			android:entryValues="@array/list_entryvalues" />
+		<RingtonePreference
+			android:key="ringtone_key"
+			android:title="@string/ringtone_title"
+			android:showDefault="true"
+			android:summary="@string/ringtone_summary" />
+-->
+ 	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DCGuts free</string>
+    <string name="friend_guts_enable_key">friend_guts_enable</string>
+    <string name="friend_guts_enable_title">仲間へコメントする</string>
+    <string name="friend_guts_enable_summary"></string>
+    <string name="friend_guts_comment_key">friend_guts_comment</string>
+    <string name="friend_guts_comment_title">仲間へのコメント文</string>
+    <string name="friend_guts_comment_summary"></string>
+    <string name="friend_guts_comment_dialogtitle">仲間へのコメント文</string>
+    <string name="friend_guts_del_key">friend_guts_del</string>
+    <string name="friend_guts_del_title">仲間へのガッツ削除</string>
+    <string name="friend_guts_del_summary"></string>
+    <string name="id_guts_enable_key">id_guts_enable</string>
+    <string name="id_guts_enable_title">仲間以外へコメントする</string>
+    <string name="id_guts_enable_summary"></string>
+    <string name="id_guts_comment_key">id_guts_comment</string>
+    <string name="id_guts_comment_title">仲間以外へのコメント文</string>
+    <string name="id_guts_comment_summary"></string>
+    <string name="id_guts_comment_dialogtitle">仲間以外へのコメント文</string>
+    <string name="id_guts_del_key">id_guts_del</string>
+    <string name="id_guts_del_title">仲間以外へのガッツ削除</string>
+    <string name="id_guts_del_summary"></string>
+    <string name="debug_mode_key">debug_mode</string>
+    <string name="debug_mode_title">デバッグモード</string>
+    <string name="debug_mode_summary"></string>
+
+    <string name="ad_click_date_key">ad_click_date</string>
+    <string name="idlist_key">idlist</string>
+    <string name="id1_key">id1</string>
+    <string name="id2_key">id2</string>
+    <string name="friends_key">friends</string>
+
+<!--
+    <string name="edittext_title">DCGuts</string>
+    <string name="edittext_summary">DCGuts</string>
+    <string name="edittext_dialogtitle">DCGuts</string>
+    <string name="list_title">DCGuts</string>
+    <string name="list_summary">DCGuts</string>
+    <string name="list_dialogtitle">DCGuts</string>
+    <string name="list_entries">DCGuts</string>
+    <string name="list_entryvalues">DCGuts</string>
+    <string name="ringtone_title">DCGuts</string>
+    <string name="ringtone_summary">DCGuts</string>
+-->
+</resources>
